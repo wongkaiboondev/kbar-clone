@@ -76,7 +76,7 @@
   }
 
   .dropdown__active {
-    @apply bg-slate-100 text-slate-500 text-lg px-[10px] py-3;
+    @apply bg-slate-200 text-slate-500 text-lg px-[10px] py-3;
   }
 
   .dropdown__inactive {
