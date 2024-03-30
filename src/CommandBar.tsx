@@ -6,9 +6,8 @@ import {
   KBarSearch,
   useMatches,
 } from "kbar";
-import type { ActionImpl } from "kbar/lib/action/ActionImpl";
-import type { ActionId } from "kbar/src/types";
 import { forwardRef, Fragment, useMemo } from "react";
+import type { ActionId, ActionImpl } from "./kbar";
 
 function CommandBar() {
   return (
